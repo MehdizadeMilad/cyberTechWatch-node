@@ -1,17 +1,18 @@
 {
   "name": "cyberTechWatch",
   "version": "1.0.0",
-  "description": "Gather cyber news from multiple source",
+  "description": "Gather and categorise cyber news from multiple source",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL 3.0",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.8.4"
+    "mongoose": "^5.8.4",
+    "rss-parser": "^3.7.3"
   }
 }
